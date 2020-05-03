@@ -72,6 +72,7 @@ function Register(props){
                         </button>
               </form><br/>
               <p>By joining you agree to the <b>Terms</b> and <b>Privacy Policy</b></p>
+              <p><Link to="/dashboard">Click Here</Link> to view our dashboard</p>
               </div>
             </div>
         </div>

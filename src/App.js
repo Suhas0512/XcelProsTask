@@ -7,9 +7,10 @@ function App(props){
   return(
     <BrowserRouter>
       <div>
-      <Route path="/" component={Home} exact={true}></Route>
-        <Route path="/login" component={Login}></Route>
+      <Route path="/dashboard" component={Home} ></Route>
+        <Route path="/" component={Login} exact={true}></Route>
         <Route path="/register" component={Register}></Route>
+        <Route path="/facebook" component={Home} ></Route>
       </div>
     </BrowserRouter>
     
