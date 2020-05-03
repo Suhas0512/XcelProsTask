@@ -79,19 +79,6 @@ export default function UserCard(props) {
                 >
                   <img src={Dot} alt="dot" />
                 </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item onClick={props.handleRemove}>
-                    Remove
-                  </Dropdown.Item>
-                  <Dropdown.Item onClick={props.handleEdit}>
-                    <Link
-                      to={`/user/edit/${props.id}`}
-                      style={{ textDecoration: "None" }}
-                    >
-                      Edit
-                    </Link>
-                  </Dropdown.Item>
-                </Dropdown.Menu>
               </Dropdown>
             </Grid>
           </Grid>

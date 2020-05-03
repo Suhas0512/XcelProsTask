@@ -61,7 +61,7 @@ const NavigationBar = () => {
           <Grid item xs={12} sm={3} md={2}>
             <Grid container justify="flex-start">
               <Link to="/login">
-                <p>Login</p>
+                <p >Login</p>
               </Link>
             </Grid>
           </Grid>
