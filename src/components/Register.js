@@ -39,19 +39,21 @@ function Register(props){
                 <span style={{ paddingLeft: 10 }}>Login via Facebook</span>
               </a><br/><br/>
               <form>
-              <div className="form-group col-lg-3" >
+                  <div className="row">
+              <div className="form-group col">
                     <label htmlFor="FirstName" className="float-left">First Name</label><Smile className="float-right"></Smile>
                     <input type="FirstName" className="form-control" id="FirstName" aria-describedby="emailHelp"/>
                 </div>
-                <div className="form-group col-lg-3" >
+                <div className="form-group col">
                     <label htmlFor="LastName" className="float-left">Last Name</label><Smile className="float-right"></Smile>
                     <input type="LastName" className="form-control " id="LastName" aria-describedby="emailHelp"/>
                 </div>
-              <div className="form-group col-lg-7" align="centre">
+                </div>
+              <div className="form-group">
                     <label htmlFor="exampleInputEmail1" className="float-left">Email address</label><Smile className="float-right"></Smile>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </div>
-                <div className="form-group col-lg-7" align="centre">
+                <div className="form-group">
                     <label htmlFor="exampleInputPassword1" className="float-left">Password
                     <span style={{color:"red"}}>(Hey you forgot to create the password)</span></label><Sad className="float-right"></Sad>
                     <input type="password" className="form-control" id="exampleInputPassword1"/>
@@ -63,8 +65,7 @@ function Register(props){
                             marginTop: 40,
                             background: "#5CDB95",
                             borderBlockColor: "#5CDB95",
-                            fontSize: 15,
-                            width: 410
+                            fontSize: 15
                           }}
                         >
                           Login our community
